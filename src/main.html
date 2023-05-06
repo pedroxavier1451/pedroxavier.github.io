@@ -1,0 +1,39 @@
+<app-cabecera></app-cabecera>
+
+<p>Hola {{name}}!</p>
+<p>{{cargo}}</p>
+<a target="_blank" href="https://angular.io/start"> UPS </a>
+<hr />
+<br />
+<label for="txtA"> A: </label>
+<input id="txtA" [(ngModel)]="a" />
+<br />
+<label for="txtB"> B: </label>
+<input id="txtB" [(ngModel)]="b" />
+
+<hr />
+<p>Suma = {{s}}</p>
+
+<button (click)="calcularsuma()">Calcular</button>
+
+<hr />
+
+<p>Resta = {{r}}</p>
+<button (click)="calcularresta()">Calcular</button>
+<hr />
+
+<p>Multiplicacion = {{m}}</p>
+<button (click)="calcularmultiplicacion()">Calcular</button>
+<hr />
+
+<p>Division = {{d}}</p>
+<button (click)="calculardivision()">Calcular</button>
+<hr />
+
+Contador = {{contador}}
+
+<app-mensaje [name]="''+s" ></app-mensaje>
+
+<app-mensaje (miEvento)="onMiEvento()"></app-mensaje>
+
+<app-menu></app-menu>
