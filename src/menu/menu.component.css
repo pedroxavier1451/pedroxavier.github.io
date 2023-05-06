@@ -21,11 +21,11 @@ nav li {
 
 nav li a {
     display: block;
-    padding: 10px;
+    padding: 30px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 36px;
     transition: background-color 0.3s ease;
 }
 
@@ -33,3 +33,6 @@ nav li a:hover {
     background-color: #555;
 }
 
+h1 {
+    margin-left: 70px;
+}

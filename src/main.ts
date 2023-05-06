@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { MensajeComponent } from './mensaje/mensaje.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { MenuComponent } from './menu/menu.component';
+import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule, FormsModule, MensajeComponent, CabeceraComponent, MenuComponent],
+  imports: [CommonModule, FormsModule, MensajeComponent, CabeceraComponent, MenuComponent, PiePaginaComponent, ContactoComponent],
   templateUrl: './main.html',
   styleUrls: ['./main.css'],
 })
